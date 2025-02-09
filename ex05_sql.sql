@@ -1,0 +1,11 @@
+use test_quan_ly_truong_hoc;
+-- a;
+select distinct ho_ten_hs from hoc_sinh;
+-- b;
+select distinct ma_lop from hoc_sinh;
+-- c;
+select distinct ma_mh from phu_trach_bo_mon where ma_lop is not null;
+-- d;
+select distinct ma_mh from ket_qua_hoc_tap;
+-- e;
+select distinct ma_gvcn from lop;

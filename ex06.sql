@@ -1,0 +1,13 @@
+use test_quan_ly_truong_hoc;
+-- a;
+select * from hoc_sinh order by ho_ten_hs asc;
+-- b;
+select * from hoc_sinh order by dia_chi desc;
+-- c;
+select * from hoc_sinh order by ho_ten_hs asc, dia_chi desc;
+-- d;
+select * from hoc_sinh order by ho_ten_hs asc, dia_chi asc;
+-- e;
+select * from hoc_sinh order by ho_ten_hs desc, dia_chi desc;
+-- f;
+select * from hoc_sinh order by ho_ten_hs desc, dia_chi desc, ho_ten_ph asc;
